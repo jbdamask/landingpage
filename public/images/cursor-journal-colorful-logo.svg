@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="640" viewBox="0 0 512 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Define our color palette based on the image -->
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5757" />
+      <stop offset="100%" stop-color="#FF3C5F" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8A4C" />
+      <stop offset="100%" stop-color="#FF7654" />
+    </linearGradient>
+    <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD166" />
+      <stop offset="100%" stop-color="#FFC145" />
+    </linearGradient>
+    <linearGradient id="gradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C3FF5B" />
+      <stop offset="100%" stop-color="#A6ED60" />
+    </linearGradient>
+    <linearGradient id="gradient5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#80ED99" />
+      <stop offset="100%" stop-color="#57CC99" />
+    </linearGradient>
+    <linearGradient id="gradient6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38A3A5" />
+      <stop offset="100%" stop-color="#22577A" />
+    </linearGradient>
+    <linearGradient id="gradient7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4361EE" />
+      <stop offset="100%" stop-color="#3A0CA3" />
+    </linearGradient>
+    <linearGradient id="gradient8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7209B7" />
+      <stop offset="100%" stop-color="#560BAD" />
+    </linearGradient>
+    <linearGradient id="gradient9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F72585" />
+      <stop offset="100%" stop-color="#B5179E" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Base shape with rounded corners and drop shadow -->
+  <rect x="96" y="64" width="320" height="480" rx="24" ry="24" fill="#1A1625" filter="drop-shadow(0px 8px 24px rgba(0,0,0,0.5))" />
+  
+  <!-- Diagonal stripes pattern clipped to the notebook shape -->
+  <g clip-path="url(#notebook)">
+    <!-- Red stripe -->
+    <path d="M -100 -50 L 200 -50 L -100 250 Z" fill="#FF3B6A" />
+    
+    <!-- Orange stripe -->
+    <path d="M 200 -50 L 400 -50 L -100 450 L -100 250 Z" fill="#FF7E45" />
+    
+    <!-- Yellow stripe -->
+    <path d="M 400 -50 L 600 -50 L 600 50 L -100 650 L -100 450 Z" fill="#FFCF42" />
+    
+    <!-- Lime green stripe -->
+    <path d="M 600 50 L 600 200 L 50 650 L -100 650 Z" fill="#9DE053" />
+    
+    <!-- Teal stripe -->
+    <path d="M 600 200 L 600 350 L 200 650 L 50 650 Z" fill="#38C9B0" />
+    
+    <!-- Blue stripe -->
+    <path d="M 600 350 L 600 500 L 350 650 L 200 650 Z" fill="#5580EB" />
+    
+    <!-- Purple stripe -->
+    <path d="M 600 500 L 600 600 L 450 650 L 350 650 Z" fill="#7B30D1" />
+    
+    <!-- Pink stripe -->
+    <path d="M 600 600 L 600 650 L 550 650 L 450 650 Z" fill="#DA2D93" />
+    
+    <!-- Dark overlays for visual effect -->
+    <rect x="256" y="64" width="160" height="240" fill="rgba(0,0,0,0.15)" />
+    <rect x="96" y="304" width="160" height="240" fill="rgba(0,0,0,0.15)" />
+  </g>
+  
+  <!-- Subtle highlight for 3D effect -->
+  <rect x="96" y="64" width="320" height="480" rx="24" ry="24" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2" />
+  
+  <!-- Define clip path for the notebook shape -->
+  <defs>
+    <clipPath id="notebook">
+      <rect x="96" y="64" width="320" height="480" rx="24" ry="24" />
+    </clipPath>
+  </defs>
+</svg> 

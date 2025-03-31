@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Journal background -->
+  <rect x="96" y="64" width="320" height="384" rx="16" fill="#4A7FB5" />
+  
+  <!-- Journal pages -->
+  <rect x="112" y="80" width="288" height="352" rx="8" fill="#F0F4F8" />
+  
+  <!-- Journal lines -->
+  <line x1="144" y1="140" x2="368" y2="140" stroke="#BDC9D7" stroke-width="2" />
+  <line x1="144" y1="180" x2="368" y2="180" stroke="#BDC9D7" stroke-width="2" />
+  <line x1="144" y1="220" x2="368" y2="220" stroke="#BDC9D7" stroke-width="2" />
+  <line x1="144" y1="260" x2="368" y2="260" stroke="#BDC9D7" stroke-width="2" />
+  <line x1="144" y1="300" x2="368" y2="300" stroke="#BDC9D7" stroke-width="2" />
+  <line x1="144" y1="340" x2="368" y2="340" stroke="#BDC9D7" stroke-width="2" />
+  <line x1="144" y1="380" x2="368" y2="380" stroke="#BDC9D7" stroke-width="2" />
+  
+  <!-- Cursor symbol -->
+  <path d="M256 120 L256 400" stroke="#4A7FB5" stroke-width="8" stroke-linecap="round" />
+  <path d="M216 160 L296 160" stroke="#4A7FB5" stroke-width="8" stroke-linecap="round" />
+</svg> 
